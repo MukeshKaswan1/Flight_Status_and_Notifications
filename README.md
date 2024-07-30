@@ -30,19 +30,19 @@ This project provides a real-time flight status and notifications system. It lev
 
 # Clone the Repository
 
-git clone https://github.com/your-repo/flight-status-notifications.git
+git clone https://github.com/MukeshKaswan1/Flight_Status_and_Notifications.git
 
 cd flight-status-notifications
 
 ### Set Up the Backend
 
-# Create a virtual environment and activate it:
+## Create a virtual environment and activate it:
 
 python3 -m venv venv
 
 source venv/bin/activate
 
-# Install required packages:
+## Install required packages:
 
 pip install -r requirements.txt
 
@@ -50,39 +50,39 @@ Run Django migrations:
 
 python manage.py migrate
 
-# Start the Django development server:
+## Start the Django development server:
 
 python manage.py runserver
 
-# Set Up MongoDB
+## Set Up MongoDB
 
 Create a MongoDB Atlas cluster and configure the connection URI in Django settings.
 
 Set Up RabbitMQ and Kafka
 
-# Install and configure RabbitMQ and Kafka instances.
+## Install and configure RabbitMQ and Kafka instances.
 
 Ensure the backend is configured to communicate with these instances.
 
-Set Up Firebase Cloud Messaging
+  **Set Up Firebase Cloud Messaging**
 
-Create a Firebase project and configure Cloud Messaging.
+  **Create a Firebase project and configure Cloud Messaging.**
 
-Add FCM credentials to the Django settings.
+  **Add FCM credentials to the Django settings.**
 
-### Set Up the Frontend
+## Set Up the Frontend
 
-# Navigate to the frontend directory:
+### Navigate to the frontend directory:
 
-cd frontend
+  **cd frontend**
 
-Install npm packages:
+  **Install npm packages:**
 
-npm install
+  **npm install**
 
-Start the React development server:
+  **Start the React development server:**
 
-npm start
+  **npm start**
 
 # Conclusion
 The Flight Status and Notifications system offers a comprehensive solution for providing real-time flight updates and notifications to passengers. By utilizing a robust tech stack, including React.js for the frontend, Django for the backend, MongoDB for data storage, RabbitMQ and Kafka for messaging, and Firebase Cloud Messaging for notifications, the system ensures reliable and timely delivery of critical flight information. This project demonstrates the potential for enhancing the passenger experience through advanced technology integration.
