@@ -42,7 +42,7 @@ python3 -m venv venv
 
 source venv/bin/activate
 
-### Install required packages:
+## Install required packages:
 
 pip install -r requirements.txt
 
@@ -50,17 +50,17 @@ Run Django migrations:
 
 python manage.py migrate
 
-### Start the Django development server:
+## Start the Django development server:
 
 python manage.py runserver
 
-### Set Up MongoDB
+## Set Up MongoDB
 
 Create a MongoDB Atlas cluster and configure the connection URI in Django settings.
 
 Set Up RabbitMQ and Kafka
 
-### Install and configure RabbitMQ and Kafka instances.
+## Install and configure RabbitMQ and Kafka instances.
 
 Ensure the backend is configured to communicate with these instances.
 
@@ -70,7 +70,7 @@ Ensure the backend is configured to communicate with these instances.
 
   Add FCM credentials to the Django settings.
 
-### Set Up the Frontend
+## Set Up the Frontend
 
 ### Navigate to the frontend directory:
 
@@ -84,7 +84,7 @@ Ensure the backend is configured to communicate with these instances.
 
   npm start
 
-### Conclusion
+## Conclusion
 The Flight Status and Notifications system offers a comprehensive solution for providing real-time flight updates and notifications to passengers. By utilizing a robust tech stack, including React.js for the frontend, Django for the backend, MongoDB for data storage, RabbitMQ and Kafka for messaging, and Firebase Cloud Messaging for notifications, the system ensures reliable and timely delivery of critical flight information. This project demonstrates the potential for enhancing the passenger experience through advanced technology integration.
 
 
