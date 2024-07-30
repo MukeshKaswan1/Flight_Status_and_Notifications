@@ -28,11 +28,11 @@ This project provides a real-time flight status and notifications system. It lev
 - Kafka instance
 - Firebase project with Cloud Messaging
 
-### Clone the Repository
+## Clone the Repository
 
 git clone https://github.com/MukeshKaswan1/Flight_Status_and_Notifications.git
 
-cd flight-status-notifications
+cd Flight_Status_and_Notification
 
 ## Set Up the Backend
 
